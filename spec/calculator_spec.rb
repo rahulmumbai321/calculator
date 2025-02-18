@@ -12,4 +12,7 @@ RSpec.describe "calculate_num" do
 
   it "returns the number when only one number is provided" do
     expect(calculate_num(7)).to eq(7)
+
+  it "returns the multiple numbers" do
+    expect(calculate_num(7,4,6,5)).to eq(22)
 end
