@@ -15,4 +15,7 @@ RSpec.describe "calculate_num" do
 
   it "returns the multiple numbers" do
     expect(calculate_num(7,4,6,5)).to eq(22)
+
+  it "returns the multiple arguments" do
+    expect(calculate_num(1,2,3,4,5,6)).to eq(21)
 end
